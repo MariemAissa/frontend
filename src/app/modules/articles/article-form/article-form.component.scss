@@ -1,0 +1,43 @@
+.rich-editor {
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+}
+
+.editor-toolbar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  padding: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.format-btn {
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  padding: 0.375rem 0.75rem;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.format-btn:hover {
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.format-btn:active {
+  background-color: #dee2e6;
+}
+
+.editor-content {
+  border: none;
+  padding: 1rem;
+  resize: vertical;
+  min-height: 300px;
+  width: 100%;
+}
+
+.editor-content:focus {
+  outline: none;
+  box-shadow: none;
+}
